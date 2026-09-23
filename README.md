@@ -8,7 +8,7 @@ This project is intentionally small:
 - no distributed training
 - no production serving layer
 
-Goal: understand the core mechanics of GPT training and inference from first principles.
+Goal: understand the core mechanics of GPT training and inference from first principles. For a more useful chat, consider this [repo](https://github.com/phtuananh/jokesGpt)
 
 ## Project structure
 
