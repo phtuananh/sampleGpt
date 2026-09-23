@@ -17,7 +17,7 @@ miniGPT/
 ├── requirements.txt
 ├── train_bpe.py
 ├── chat_bpe.py
-├── data.txt
+├── data/data_shakesspear.txt
 └── models/shakespeare
     ├── model.pt
     ├── tokenizer.json
@@ -66,12 +66,12 @@ pip install torch tokenizers
 
 ## Prepare data
 
-The training file is a plain text file.
+The training file is a plain text file. Use data/data_sharespeare.txt for sample. The data/data_jokes.txt will not work well, for an useful jokes chatbot, consider this [repo](https://github.com/phtuananh/jokesGpt)
 
 Example:
 
 ```text
-data.txt
+data/data_sharespeare.txt
 ```
 
 You can use any text corpus: stories, jokes, books, notes, code, etc.
@@ -312,7 +312,7 @@ This project intentionally keeps the same educational philosophy:
 
 Differences from minGPT/nanoGPT:
 
-* uses a BPE tokenizer built with the `tokenizers` library
+* uses a tokenizer Hugging Face 
 * stores tokenizer and configuration separately
 * includes a simple interactive chat program
 * simplified folder structure for experimentation
