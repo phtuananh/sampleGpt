@@ -1,8 +1,8 @@
 # Training data
-data/
+# data/
 
 # Model outputs
-models/
+# models/
 
 # Python
 __pycache__/

@@ -18,7 +18,7 @@ miniGPT/
 ├── train_bpe.py
 ├── chat_bpe.py
 ├── data.txt
-└── out_model/
+└── models/shakespeare
     ├── model.pt
     ├── tokenizer.json
     ├── config.json
